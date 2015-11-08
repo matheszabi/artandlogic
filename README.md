@@ -1,6 +1,6 @@
 # Art & logic 
 
-It is assignment for a job candicate.
+It is assignment for a job.
 The task description it is on the .pdf file: https://github.com/matheszabi/artandlogic/blob/master/specification/AlpcPart1.pdf
 
 The finished Android apication screensots are in the screenshots folder:
