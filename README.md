@@ -5,6 +5,6 @@ The task description it is on the .pdf file: https://github.com/matheszabi/artan
 
 The finished Android apication screensots are in the screenshots folder:
 
-![alt tag](https://github.com/matheszabi/artandlogic/blob/master/screenshots/2.png)
+![alt tag](https://github.com/matheszabi/artandlogic/blob/master/screenshots/3.png)
 
 
