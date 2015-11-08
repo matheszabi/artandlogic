@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:useDefaultMargins="true">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:text="ART &amp; LOGIC"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/encodeLabel"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Encode:\n [-8192..+8191]" />
+
+        <TextView
+            android:id="@+id/decodeLabel"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Decode: 0x\n [0000..7F7F]" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/encodeInput"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:width="@dimen/labels_width"
+            android:ems="10"
+            android:inputType="numberSigned" />
+
+
+        <EditText
+            android:id="@+id/decodeInput"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:width="@dimen/labels_width"
+            android:ems="4"
+            android:digits="0123456789ABCDEFxabcdef"
+            android:inputType="textCapCharacters"
+            />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/encodeButton"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:width="@dimen/buttons_width"
+            android:text="Encode" />
+
+
+        <Button
+            android:id="@+id/decodeButton"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:width="@dimen/buttons_width"
+            android:text="Decode" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/encodeResult"
+            android:layout_gravity="center"
+            android:ems="5"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/decodeResult"
+            android:layout_gravity="center"
+            android:ems="5"
+            android:layout_weight="1" />
+    </TableRow>
+
+
+</TableLayout>
